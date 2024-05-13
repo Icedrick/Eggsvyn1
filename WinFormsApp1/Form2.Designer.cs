@@ -1,4 +1,5 @@
-﻿namespace WinFormsApp1
+﻿
+namespace WinFormsApp1
 {
     partial class Form2
     {
@@ -199,6 +200,11 @@
             Load += Form3_Load;
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
